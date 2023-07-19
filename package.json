@@ -2,18 +2,30 @@
   "name": "chatbox",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
+  "bin": "./dist/bundler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js",
+    "dev": "node dist/bundler.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^16.3.1",
-    "openai": "^3.3.0"
+    "openai": "^3.3.0",
+    "ora": "^6.3.1",
+    "readline-sync": "^1.4.10",
+    "rollup-plugin-add-shebang": "^0.3.1",
+    "tslib": "^2.6.0"
   },
   "devDependencies": {
-    "@types/node": "^20.4.2"
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/node": "^20.4.2",
+    "@types/readline-sync": "^1.4.4",
+    "rollup": "^3.26.3"
   }
 }
