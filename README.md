@@ -8,15 +8,14 @@ The terminal integrates openai to implement a chatbox
 
 3.tsc --init
 
-4.![image-20230718215855415](/Users/Alex/Library/Application Support/typora-user-images/image-20230718215855415.png)
 
 创建下目录结构，ts-node src/index.ts 测试一下
 
-5.pnpm i openai 
+4.pnpm i openai 
 
 import {Configuration,OpenAIApi} from 'openai';去引入
 
-6.关于环境变量，导入dotenv这个库 pnpm i dotenv
+5.关于环境变量，导入dotenv这个库 pnpm i dotenv
 
 process报错：npm i --save-dev @types/node
 
