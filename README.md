@@ -1,5 +1,9 @@
 # terminal-chatbox
 The terminal integrates openai to implement a chatbox
+项目中.env文件自己创建，放入自己的key。
+关于basePath，可以自己使用国内代理，项目中是我用了cloudflare做了接口转发，感兴趣的小伙伴可以自行探索一下，3美刀就可以进行搭建部署
+这里都是通过	阿崔cxr ， 崔大的教学进行实现，特此感谢崔大
+延伸拓展部分：用户可以手动设置basepath或者apikey等等可以自行探索
 ## 一：核心部分
 
 1.pnpm init 
