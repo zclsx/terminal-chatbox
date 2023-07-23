@@ -7,23 +7,14 @@ The terminal integrates openai to implement a chatbox
 
 这里都是通过	阿崔cxr ， 崔大的教学进行实现，特此感谢崔大
 - chatGPT api
-- 
 - readlineSync
-- 
 - dotenv 环境变量的设置
-- 
 - colors 给字体来点颜色
-- 
 - ora 终端显示进度条动画
-- 
 - rollup 打包库
-- 
 - typescript
-- 
 - 重构技巧
-- 
 - 模块化思维
-- 
 - 全局 cli
 
 延伸拓展部分：用户可以手动设置basepath或者apikey等等可以自行探索
@@ -86,5 +77,5 @@ Tsconfig: "module": "NodeNext",
 
 bin设置："bin": "./dist/bundler.js",
 
-pnpm link --global 注册全局
+pnpm link --global 注册全局 //如果pnpm配置后失效换npm link全局
 
