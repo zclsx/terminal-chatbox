@@ -79,3 +79,7 @@ bin设置："bin": "./dist/bundler.js",
 
 pnpm link --global 注册全局 //如果pnpm配置后失效换npm link全局
 
+解决指定要执行文件 利用shebang头
+
+pnpm i rollup-plugin-add-shebang
+
